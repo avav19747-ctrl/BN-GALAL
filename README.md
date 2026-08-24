@@ -1,67 +1,167 @@
+      margin-bottom: 12px;
+    }
+
+    button {
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>متجر الأحذية</title>
-</head>
 
-<body>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
 
-  <h1>مرحباً بكم في متجر الأحذية 👟</h1>
+    body {
+      background: #f4ead8;
+      color: #3b2418;
+    }
 
-  <p>قريباً بنعرضوا أحسن الأحذية عندنا.</p>
+    header {
+      background: #5a3525;
+      color: #f8efdF;
+      padding: 22px;
+      text-align: center;
+    }
 
-</body>
-</html>      background: white;
+    header h1 {
+      font-size: 30px;
+    }
+
+    .hero {
+      background: #ead8bb;
+      text-align: center;
+      padding: 45px 20px;
     }
 
     .hero h2 {
-      font-size: 30px;
+      font-size: 32px;
       margin-bottom: 10px;
     }
 
     .hero p {
-      color: #666;
+      font-size: 17px;
     }
 
     .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      padding: 25px;
       max-width: 1100px;
       margin: auto;
+      padding: 30px 20px;
+
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
     }
 
     .product {
-      background: white;
-      border-radius: 15px;
-      padding: 15px;
-      box-shadow: 0 3px 12px #0001;
+      background: #fff8eb;
+      border-radius: 16px;
+      overflow: hidden;
       text-align: center;
+      box-shadow: 0 5px 18px rgba(70, 40, 20, 0.15);
     }
 
     .product img {
       width: 100%;
-      height: 220px;
+      height: 250px;
       object-fit: cover;
-      border-radius: 12px;
-      background: #eee;
+      display: block;
+    }
+
+    .product-info {
+      padding: 18px;
     }
 
     .product h3 {
-      margin: 12px 0 7px;
+      font-size: 20px;
+      margin-bottom: 8px;
     }
 
     .price {
       font-size: 20px;
       font-weight: bold;
-      margin-bottom: 12px;
+      color: #7a472d;
+      margin-bottom: 14px;
     }
 
     button {
+      background: #6b3f2b;
+      color: #fff8eb;
       border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #432719;
+    }
+
+    footer {
+      background: #5a3525;
+      color: #f8efdF;
+      text-align: center;
+      padding: 25px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>👟 متجر الأحذية</h1>
+  </header>
+
+  <section class="hero">
+    <h2>اختار ستايلك</h2>
+    <p>أحدث الأحذية بأسعار مميزة</p>
+  </section>
+
+  <section class="products">
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80">
+      <div class="product-info">
+        <h3>حذاء رياضي</h3>
+        <div class="price">150 د.ل</div>
+        <button>اطلب الآن</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80">
+      <div class="product-info">
+        <h3>حذاء كلاسيك</h3>
+        <div class="price">180 د.ل</div>
+        <button>اطلب الآن</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80">
+      <div class="product-info">
+        <h3>حذاء شبابي</h3>
+        <div class="price">130 د.ل</div>
+        <button>اطلب الآن</button>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 متجر الأحذية
+  </footer>
+
+</body>
+</html>      border: none;
       background: #111;
       color: white;
       padding: 12px 22px;
