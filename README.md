@@ -4,35 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>متجر الأحذية</title>
+</head>
 
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
+<body>
 
-    body {
-      background: #f5f5f5;
-      color: #111;
-    }
+  <h1>مرحباً بكم في متجر الأحذية 👟</h1>
 
-    header {
-      background: #111;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+  <p>قريباً بنعرضوا أحسن الأحذية عندنا.</p>
 
-    header h1 {
-      font-size: 28px;
-    }
-
-    .hero {
-      padding: 35px 20px;
-      text-align: center;
-      background: white;
+</body>
+</html>      background: white;
     }
 
     .hero h2 {
