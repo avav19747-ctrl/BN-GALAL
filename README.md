@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>متجر الأحذية</title>
+  <title>متجر Bn galal</title>
 
   <style>
     * {
@@ -16,7 +16,7 @@
 
     body {
       background: #fff0f6;
-      color: #5c1238;
+      color: #683946;
     }
 
     header {
@@ -254,7 +254,7 @@
   <div class="product">
     <img src="https://via.placeholder.com/500x500?text=Shoe+1">
     <h3>حذاء رياضي 1</h3>
-    <div class="price">120 د.ل</div>
+    <div class="price">75 د.ل</div>
     <button>أضف للسلة</button>
   </div>
 
