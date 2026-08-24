@@ -1,6 +1,9 @@
-<!DOCTYPE html>
+      text-align: center;
+    }
+
+    nav<!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>main
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,7 +25,7 @@
     header {
       background: #d81b60;
       color: white;
-      padding: 22px;
+      padding: 25px;
       text-align: center;
     }
 
@@ -32,11 +35,36 @@
 
     nav {
       background: #ad1457;
-      padding: 12px;
+      padding: 14px;
       text-align: center;
     }
 
     nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: #f06292;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 18px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 35px 0 10 a {
       color: white;
       text-decoration: none;
       margin: 0 15px;
