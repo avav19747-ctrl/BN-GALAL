@@ -1,7 +1,4 @@
-      text-align: center;
-    }
-
-    nav<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
@@ -64,28 +61,7 @@
 
     .section-title {
       text-align: center;
-      margin: 35px 0 10 a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-
-    .hero {
-      background: linear-gradient(135deg, #f06292, #ec407a);
-      color: white;
-      text-align: center;
-      padding: 65px 20px;
-    }
-
-    .hero h2 {
-      font-size: 38px;
-      margin-bottom: 12px;
-    }
-
-    .hero p {
-      font-size: 18px;
-    }
+      margin: 35px 0 10    }
 
     .section-title {
       text-align: center;
